@@ -1,17 +1,13 @@
 
 
 def removeDuplicates(nums):
+    k=1
 
-    for i in range(len(nums)-1):
-        x= nums[i]
-        # j=i+1
-        k=0
-        for j in range(len(nums)-1):
-            # y= nums[j+1]
-            if x==nums[j+1]:
-                nums[j+1]='_'
-            
-           
+    for i in range(1,len(nums)):
+        if nums[i] != nums[i-1]:
+            nums[k] = nums[i]
+            k=k+1
+    print(k)     
     return nums
 
 if __name__ == '__main__':
