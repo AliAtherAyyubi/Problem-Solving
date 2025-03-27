@@ -1,40 +1,19 @@
 
 
-a= {'mango', 'apple', 'banana'}
+# set in python
 
-a.add('orange')
-a.add(2)
-
-a.update({9})
-print(a)
-
-# map
-
-m= {'r':'ali', 2:'ahmed', 3:'ather'}
-
-data=m.get('r')
-
-data=m[2]
+st= {3,4,5,53,2,33}
 
 
-# print(m.items())
+#Destructring
+(st1,st2,st3,st4,st5,st6)=st
+# print(st2)
 
-# print(m.keys())
+st1= {3,4,5,5,2,3}
+st2={4,3,2,22,3,4,5}
 
-# print(m.values())
+# st1.add('ali')
 
-# print('from map:',data)
-
-m[2]='mubashir'
-m['4']='khan'
-print(m)
-
-m.update({5:'lahore'})
-m.pop(3)
-
-print(len(m))
-if 2 in m:
-    print('yes')
-
-for key, value in m.items():
-    print(key,":", value)
+# st1.update(st2)
+diff=st1.difference(st2)
+print(st1)
