@@ -28,9 +28,9 @@ def searchInsert(nums, target):
 
 
 
-ls=[1,3,4,6]
+ls=[1,3,4,6,9,10,34,56]
 
-print(searchInsert(ls,2))
+print(searchInsert(ls,22))
 # print(searchInsert(ls,3))
         
 # print(ls)

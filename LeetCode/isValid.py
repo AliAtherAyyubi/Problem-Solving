@@ -15,6 +15,6 @@ def isValid(s):
                 return True
     return False       
 
-is_valid=isValid('(]')
+is_valid=isValid('[()}]')
 
 print(is_valid)
