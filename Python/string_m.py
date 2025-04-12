@@ -3,9 +3,20 @@
 
 str= "I am a student of GCU Lahore"
 
-str=str.split()
-str=[list(x) for x in str]
-print(str)
+# str= list(str)
+
+s= str[::2] 
+
+print(s)
+
+s='level'
+
+if s== s[::-1]:
+    print('palindrome')
+
+
+# str=[list(x) for x in str]
+# print(str)
 # print(str.split())
 # count=0
 # for i in str.split():
@@ -24,3 +35,4 @@ print(str)
 # reverse='potpal'
 # r=reverse.capitalize()
 # print(r)
+
